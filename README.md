@@ -9,7 +9,8 @@ docker compose up -d --build <br>
 1. docker-compose exec php bash
 2. composer install
 3. .env(環境変数を変更)
-4. php artisan migrate
+4. php artisan key:generate
+5. php artisan migrate
 
 ## ER図
 < - - - 作成したER図の画像 - - - >
