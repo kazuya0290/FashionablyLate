@@ -1,0 +1,148 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 1px 5px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.admin__content {
+    margin: 0 auto;
+    padding: 60px 15px;
+    max-width: 2000px;
+}
+
+.create-form {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.create-form__item {
+    width: 70%;
+}
+
+.create-form__item-input {
+    padding: 5px;
+    width: 300px;
+    height: 40px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+}
+
+.search-form__button {
+    width: 50%;
+}
+
+.reset-form__button {
+    width: 50%;
+}
+
+.search-form__button-submit {
+    padding: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #0000ff;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.reset-form__button-submit {
+    padding: 10px;
+    width: 90%;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background: #ff0000;
+    color: #fff;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.admin-table {
+    margin: 39px auto;
+    width: 100%;
+    text-align: left;
+
+}
+
+.admin-table__inner {
+    width: 100%;
+}
+
+.admin-table__row {
+    border-bottom: 1px solid #ddd;
+}
+
+.admin-table__header {
+    padding: 12px;
+    width: 20%;
+    background-color: #289ADC;
+    text-align: left;
+    font-weight: bold;
+}
+
+.admin-table__header-span {
+    margin-right: 10%;
+}
+
+.admin-table__item:first-of-type {
+    padding: 12px;
+    width: 90%;
+}
+
+.detail-form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.detail-form__item {
+    width: 40%;
+    line-height: 50%;
+}
+
+.detail-form__item-input {
+    width: 100%;
+    outline: none;
+    border: none;
+}
+
+.detail-form__button {
+    width: 50px;
+}
+
+.detail-form__button-submit {
+    padding: 5px;
+    width: 100%;
+    border: none;
+    border-radius: 3px;
+    background: #0000ff;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+}
+
+.gender {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.contact-form {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.date {
+    margin-left: 30px;
+}

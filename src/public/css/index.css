@@ -1,0 +1,149 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 30px 15px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    text-align: center;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__label--required {
+    margin-left: 10px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    background: #fafafa;
+    color: #ff0000;
+}
+
+.form__error {
+    height: 20px;
+    color: #ff0000;
+    text-align: left;
+}
+
+.form__input--text input,
+.form__input--textarea textarea {
+    padding: 10px;
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__button {
+    margin-top: 30px;
+}
+
+.form__button-submit {
+    padding: 10px;
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 3px;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
+
+.form__input--radio {
+    padding: 10px;
+    padding-right: 470px;
+    appearance: none;
+}
+
+.contact-form {
+    padding: 10px;
+    width: 610px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.form_last_name {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+
+    appearance: none;
+}
+
+.form_first_name {
+    padding: 10px;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.first_number {
+    padding: 10px;
+    width: 100x;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.second_number {
+    padding: 10px;
+    width: 100x;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.third_number {
+    padding: 10px;
+    width: 100x;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.mail_form {
+    padding: 10px;
+    width: 550px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.address_form {
+    padding: 10px;
+    width: 630px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
+
+.building_form {
+    padding: 10px;
+    margin-bottom: 20px;
+    width: 650px;
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    appearance: none;
+}
