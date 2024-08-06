@@ -15,5 +15,11 @@ docker compose up -d --build <br>
 ## ER図
 < - - - 作成したER図の画像 - - - >
 
+## 使用技術
+PHP　8.0
+Laravel 10.0
+MySQL 8.0
+
 ## URL
  開発環境：http://localhost/
+ phpMyAdmin: http::localhost:8080/
