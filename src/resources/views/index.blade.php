@@ -40,7 +40,7 @@
           </div>
         <div class="form__group-content">
           <div class="form__input--radio">
-              <input id="men" type="radio" name="gender" value="1">
+              <input id="men" type="radio" name="gender" value="1" checked>
               <label for="men" name="gender" value="男性">男性</label>
               <input id="women" type="radio" name="gender" value="2">
               <label for="women" name="gender" value="女性">女性</label>
@@ -64,11 +64,17 @@
             </div>
             <span class="form__label--item">電話番号</span>
             <span class="form__label--required">※</span>
-              <input class="first_number" type="text" name="tell" placeholder="090" value="{{ old ('tell') }}"/>-
-              <input class="second_number" type="text" name="tell" placeholder="1234" value="{{ old ('tell') }}"/>-
-              <input class="third_number" type="text" name="tell" placeholder="5678" value="{{ old ('tell') }}" />
+              <input class="first_number" type="text" name="tell1" placeholder="090" value="{{ old ('tell1') }}"/>-
+              <input class="second_number" type="text" name="tell2" placeholder="1234" value="{{ old ('tell2') }}"/>-
+              <input class="third_number" type="text" name="tell3" placeholder="5678" value="{{ old ('tell3') }}" />
             <div class="form__error">
-              @error('tell')
+              @error('tell1')
+                {{ $message }}
+                @enderror
+                @error('tell2')
+                {{ $message }}
+                @enderror
+                @error('tell3')
                 {{ $message }}
                 @enderror
             </div>

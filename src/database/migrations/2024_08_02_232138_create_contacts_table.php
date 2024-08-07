@@ -18,9 +18,11 @@ class CreateContactsTable extends Migration
             $table->foreignId('category_id')->constrained()->cascadeOnDelete();
             $table->string('first_name');
             $table->string('last_name');
-            $table->tinyInteger('gender')->comment('性別:1=男性、2=女性');
+            $table->tinyInteger('gender')->comment('性別:1=男性、2=女性、3=その他');
             $table->string('email');
-            $table->string('tell');
+            $table->string('tell1');
+            $table->string('tell2');
+            $table->string('tell3');
             $table->string('address');
             $table->string('building')->nullable();
             $table->string('contact-form');

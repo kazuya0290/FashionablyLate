@@ -72,6 +72,7 @@
     padding: 10px;
     padding-right: 470px;
     appearance: none;
+
 }
 
 .contact-form {
@@ -87,7 +88,7 @@
     width: 300px;
     border: 1px solid #ddd;
     border-radius: 3px;
-
+    justify-content: space-between;
     appearance: none;
 }
 
@@ -101,7 +102,7 @@
 
 .first_number {
     padding: 10px;
-    width: 100x;
+    width: 190px;
     border: 1px solid #ddd;
     border-radius: 3px;
     appearance: none;
@@ -109,7 +110,7 @@
 
 .second_number {
     padding: 10px;
-    width: 100x;
+    width: 190px;
     border: 1px solid #ddd;
     border-radius: 3px;
     appearance: none;
@@ -117,7 +118,7 @@
 
 .third_number {
     padding: 10px;
-    width: 100x;
+    width: 190px;
     border: 1px solid #ddd;
     border-radius: 3px;
     appearance: none;
